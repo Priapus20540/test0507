@@ -1,0 +1,6 @@
+mkdir <test0507>
+cd <test0507>
+git init
+heroku login
+heroku create <test0507>
+heroku buildpacks:set heroku/nodejs
